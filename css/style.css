@@ -28,3 +28,15 @@ header {
 .header-left img {
   max-width: 120px;
 }
+.menu-header{
+  display: inline-block;
+  margin-left: 30px;
+}
+.menu-header li{
+  display: inline-block;
+  margin-right: 15px;
+}
+.menu-header a{
+  color: white;
+  text-decoration: none;
+}
