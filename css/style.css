@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif
 }
 body {
   background: gray;
@@ -40,6 +40,7 @@ header {
 .menu-header li{
   display: inline-block;
   margin-right: 15px;
+  font-size: 14px;
 }
 .menu-header a{
   color: white;
@@ -83,4 +84,40 @@ header {
 .header-right a {
   color: white;
   text-decoration: none;
+  font-size: 14px;
+}
+
+/*Destaque*/
+section.destaque {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 600px;
+  position: absolute;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.texto-destaque {
+  color: white;
+  z-index: 3;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 4%;
+}
+.texto-destaque h2 {
+  color: #b10f17;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+.texto-destaque h3 {
+  
 }
