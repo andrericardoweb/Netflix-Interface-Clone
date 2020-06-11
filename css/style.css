@@ -2,25 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background: grey;
+  background: gray;
 }
 
 .center {
-  max-width: 1280px;
+  max-width: 1480px;
   margin: 0 auto;
   padding: 0 2%;
 }
 
-.clear{
+.clear {
   clear: both;
 }
 
 header {
   background: black;
   padding: 12px 0;
+  height: 55px;
 }
+/* Menu 1 - Header */
 
 .header-left {
   float: left;
@@ -29,6 +32,8 @@ header {
   max-width: 120px;
 }
 .menu-header{
+  position: relative;
+  top: -10px;
   display: inline-block;
   margin-left: 30px;
 }
@@ -37,6 +42,45 @@ header {
   margin-right: 15px;
 }
 .menu-header a{
+  color: white;
+  text-decoration: none;
+}
+
+/*Menu 2 - right*/
+.header-right {
+  margin-top: 10px;
+  float: right;
+}
+.search,
+.notifications {
+  display: inline-block;
+}
+.notifications {
+  position: relative;
+}
+
+.circle-notifications {
+  position: absolute;
+  background: #e50914;
+  right: 12px;
+  top: -20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: 20px;
+}
+.circle-notifications span {
+  color: white;
+}
+
+.header-right i {
+  margin: 0 10px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.header-right a {
   color: white;
   text-decoration: none;
 }
