@@ -62,16 +62,18 @@ header {
 .circle-notifications {
   position: absolute;
   background: #e50914;
-  right: 12px;
-  top: -20px;
-  width: 10px;
-  height: 10px;
+  right: 0;
+  top: -10px;
+  width: 20px;
+  height: 20px;
   border-radius: 10px;
   text-align: center;
   vertical-align: 20px;
 }
 .circle-notifications span {
   color: white;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .header-right i {
